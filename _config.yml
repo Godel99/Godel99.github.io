@@ -27,10 +27,7 @@ url: "https://godel99.github.io"
 
 github:
   username: Godel99 # change to your GitHub username
-
-# twitter:
-#   username: twitter_username # change to your Twitter username
-
+  
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -43,6 +40,9 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    
+# twitter:
+#   username: twitter_username # change to your Twitter username
 
 # Site Verification Settings
 webmaster_verifications:
