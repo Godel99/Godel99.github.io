@@ -27,6 +27,9 @@ url: "https://godel99.github.io"
 
 github:
   username: Godel99 # change to your GitHub username
+
+# twitter:
+#   username: twitter_username # change to your Twitter username
   
 social:
   # Change to your full name.
@@ -41,9 +44,6 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
     
-# twitter:
-#   username: twitter_username # change to your Twitter username
-
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
