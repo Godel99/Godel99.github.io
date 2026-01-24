@@ -9,3 +9,15 @@
 ';
 
 /* append your custom style below */
+#avatar {
+  display: block;
+  overflow: hidden; /* 원 밖으로 나가는 부분 제거 */
+  border-radius: 50%; /* 완전한 원형 유지 */
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;     /* 비율 깨짐 없이 꽉 채움 */
+    object-position: center !important; /* 사진의 정중앙을 기준으로 맞춤 */
+  }
+}
