@@ -185,7 +185,6 @@ defaults:
       permalink: /posts/:title/
       math: true
       comments: true
-      description: "Gödel's PS블로그"
   - scope:
       path: _drafts
     values:
