@@ -15,7 +15,7 @@ timezone: Asia/Seoul
 
 title: Gödel # the main title
 
-tagline: PS 블로그 # it will display as the subtitle
+tagline: 블로그 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -185,6 +185,7 @@ defaults:
       permalink: /posts/:title/
       math: true
       comments: true
+      description: ""
   - scope:
       path: _drafts
     values:
