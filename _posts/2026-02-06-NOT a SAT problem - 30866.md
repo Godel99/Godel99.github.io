@@ -53,14 +53,14 @@ using namespace std;
 using ll = long long;
 
 int main(){
-	cin.tie(0); cout.tie(0); ios::sync_with_stdio(false);
-	int n, m; cin >> n >> m;
+    cin.tie(0); cout.tie(0); ios::sync_with_stdio(false);
+    int n, m; cin >> n >> m;
     vector<int> ans(n+1, -1);
-	while(m--){
-		int k; cin >> k;
-		vector<int> clause(k);
+    while(m--){
+        int k; cin >> k;
+        vector<int> clause(k);
         for(int i = 0; i < k; i++) cin >> clause[i];
-		bool flag = 1;
+        bool flag = 1;
         for(int i = 0; i < k; i++){
             int x = abs(clause[i]);
             bool req = clause[i] < 0 ? 1 : 0;
