@@ -7,7 +7,7 @@ permalink: /feed.xml
 {% capture source %}
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>{{ "/" | absolute_url }}</id>
-  <title>{{ site.title }}</title>
+  <title>{{ post.title | xml_escape }}</title>
   <subtitle>{{ site.description }}</subtitle>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <author>
@@ -45,7 +45,7 @@ permalink: /feed.xml
     {% endfor %}
   {% endif %}
 
-  <summary>{% include post-summary.html max_length=400 %}</summary>
+  <summary>{{ post.content | strip_html | truncate: 300 | xml_escape }}</summary>
 
   </entry>
 {% endfor %}
