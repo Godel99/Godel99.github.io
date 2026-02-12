@@ -116,9 +116,8 @@ layout: default
                     {% endfor %}
                   </span>
                 {% endif %}
-              </div>
-              
-              {% if page.tags.size > 0 %}
+
+                {% if page.tags.size > 0 %}
                 <span class="page__meta-tags">
                   <i class="fas fa-tags" aria-hidden="true"></i>
                   {% for tag in page.tags %}
@@ -126,7 +125,9 @@ layout: default
                   {% endfor %}
                 </span>
               {% endif %}
-
+                
+              </div>
+              
               {% if post.pin %}
                 <div class="pin ms-1">
                   <i class="fas fa-thumbtack fa-fw"></i>
