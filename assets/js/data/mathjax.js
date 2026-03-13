@@ -21,5 +21,15 @@ MathJax = {
     ],
     {%- comment -%} equation numbering {%- endcomment -%}
     tags: 'ams'
+  },
+    },
+  options: {
+    enableAssistiveMml: true
+  },
+  startup: {
+    ready: () => {
+      MathJax.startup.defaultReady();
+      console.log('MathJax is ready with Assistive MML!');
+    }
   }
 };
