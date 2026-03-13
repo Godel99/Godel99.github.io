@@ -21,11 +21,5 @@ MathJax = {
     ],
     {%- comment -%} equation numbering {%- endcomment -%}
     tags: 'ams'
-  },
-    options: {
-    enableAssistiveMml: true /* 드래그 및 복사를 위해 보조 MML 활성화 */
-  },
-  loader: {
-    load: ['ui/menu', 'output/chtml'] /* SVG 대신 텍스트 기반인 chtml 사용 권장 */
   }
 };
