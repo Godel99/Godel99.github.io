@@ -21,3 +21,13 @@
     object-position: center !important; /* 사진의 정중앙을 기준으로 맞춤 */
   }
 }
+mjx-container, 
+mjx-container *, 
+.MathJax, 
+.MathJax * {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  cursor: text !important; /* 마우스 커서를 글자 선택 모양으로 변경 */
+}
