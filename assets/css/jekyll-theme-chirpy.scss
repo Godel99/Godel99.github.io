@@ -21,3 +21,8 @@
     object-position: center !important; /* 사진의 정중앙을 기준으로 맞춤 */
   }
 }
+mjx-container {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  cursor: text !important;
+}
