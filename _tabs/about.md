@@ -8,13 +8,11 @@ order: 4
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=250&section=header&text=Gödel&fontSize=60&fontColor=C0392B" alt="Name"/>
 </p>
-<p align="center">
-<a href="https://solved.ac/godel">
-    <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=godel" alt="Solved.ac프로필">
-    <img src="https://mazandi.herokuapp.com/api?handle=godel&theme=warm" alt="Days"/>
-</a>
-</p>
 
+<a href="https://solved.ac/godel" >
+    <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=godel" alt="Solved.ac프로필">
+    <img src="https://mazandi.herokuapp.com/api?handle=godel&theme=warm" alt="Days">
+</a>
 
 안녕하세요, **Gödel**입니다.
 
@@ -22,3 +20,4 @@ order: 4
 설명이 다소 부족하더라도 양해 부탁드립니다. 
 
 궁금한 점이나 문의 사항은 댓글로 남겨주세요!
+
