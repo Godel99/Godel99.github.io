@@ -7,16 +7,13 @@ order: 4
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=250&section=header&text=Gödel&fontSize=60&fontColor=C0392B" alt="Name"/>
-  <br>
   <a href="https://solved.ac/godel">
     <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=godel" alt="Solved.ac프로필">
+    <img src="https://mazandi.herokuapp.com/api?handle=godel&theme=warm" alt="Days"/>
   </a>
-  <img src="https://mazandi.herokuapp.com/api?handle=godel&theme=warm" alt="Days"/>
 </p>
 
-<br>
 
-# **Gödel**
 
 안녕하세요, **Gödel**입니다.
 
