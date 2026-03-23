@@ -3,6 +3,12 @@
 icon: fas fa-info-circle
 order: 4
 ---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=250&section=header&text=Gödel&fontSize=60&fontColor=C0392B" />
+  <a href="https://solved.ac/godel">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=godel" alt="Solved.ac프로필"> <img src="http://mazandi.herokuapp.com/api?handle=godel&theme=warm" />
+  </a>
+</p>
 
 안녕하세요.
 # **Gödel**
