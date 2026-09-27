@@ -31,3 +31,11 @@ mjx-container *,
   -ms-user-select: text !important;
   cursor: text !important; /* 마우스 커서를 글자 선택 모양으로 변경 */
 }
+
+/* 1. Wanted Sans 웹폰트 CDN 로드 */
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/web/variable/split/WantedSansVariable.min.css");
+
+/* 2. Chirpy 폰트 변수 재정의 */
+:root {
+  --font-family-base: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
