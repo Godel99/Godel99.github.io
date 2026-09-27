@@ -1,5 +1,26 @@
 ---
 ---
+/* 1. Wanted Sans CDN 로드 */
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/web/variable/split/WantedSansVariable.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-code/fonts/web/variable/split/WantedSansCodeVariable.min.css");
+
+/* 2. CSS 변수 및 SCSS 변수 재정의 (모든 Chirpy 버전 호환) */
+$font-family-base: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+$font-family-code: "Wanted Sans Code Variable", "Wanted Sans Code", monospace;
+
+:root {
+  --font-family-base: #{$font-family-base};
+  --font-family-code: #{$font-family-code};
+}
+
+body {
+  font-family: var(--font-family-base) !important;
+}
+
+code, kbd, pre, samp {
+  font-family: var(--font-family-code) !important;
+}
+
 /* prettier-ignore */
 @use 'main
 {%- if jekyll.environment == 'production' -%}
