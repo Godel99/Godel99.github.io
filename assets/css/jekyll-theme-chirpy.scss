@@ -1,7 +1,5 @@
 ---
 ---
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/web/variable/split/WantedSansVariable.min.css");
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-code/fonts/web/variable/split/WantedSansCodeVariable.min.css");
 /* prettier-ignore */
 @use 'main
 {%- if jekyll.environment == 'production' -%}
